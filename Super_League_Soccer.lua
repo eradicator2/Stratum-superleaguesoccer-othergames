@@ -3,7 +3,7 @@
     Game: Super League Soccer
 ]]
 
-local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sub2BK/Stratum/refs/heads/Scripts/LunaUI_Loader_Source.lua", true))()
+local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/eradicator2/Stratum-superleaguesoccer-othergames/refs/heads/main/LunaUI_Loader_Source.lua", true))()
 
 local Window = Luna:CreateWindow({
     Name = "Stratum Hub - Super League Soccer!",
