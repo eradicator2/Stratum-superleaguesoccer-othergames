@@ -1,6 +1,4 @@
--- ts file was generated at discord.gg/25ms
-
-local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sub2BK/Stratum/refs/heads/Scripts/LunaUI_Loader_Source.lua", true))()
+local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/eradicator2/Stratum-superleaguesoccer-othergames/refs/heads/main/LunaUI_Loader_Source.lua", true))()
 local Window = Luna:CreateWindow({
     Name = "Stratum Hub - Steal a Pet!",
     Subtitle = "Wheres my Meow >:(",
@@ -32,7 +30,7 @@ local Window = Luna:CreateWindow({
 
 Window:CreateHomeTab({
     SupportedExecutors = {
-        "Volcano", "Swift", "Wave", "Zenith", "awp", "Potassium", "Codex", "Delta", "Ronix", "Hydrogen", "Macsploit"
+        "Volcano", "Swift", "Wave", "Zenith", "awp", "Potassium", "Codex", "Delta", "Ronix", "Hydrogen", "Macsploit", "Velocity"
     },
     DiscordInvite = "XKxQwBd2zT",
     Icon = 1
