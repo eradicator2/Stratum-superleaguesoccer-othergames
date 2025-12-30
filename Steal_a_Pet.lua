@@ -55,7 +55,7 @@ local VirtualUser = game:GetService("VirtualUser")
 local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
 local Humanoid = Character:WaitForChild("Humanoid")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Sub2BK/Stratum/refs/heads/Scripts/Remotes_Reverted.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eradicator2/Stratum-superleaguesoccer-othergames/refs/heads/main/Remotes_Reverted.lua"))()
 
 local ClientPlot = require(ReplicatedStorage.Library.Client.PlotCmds.ClientPlot)
 local ItemHolding = require(ReplicatedStorage.Library.Client.ItemHoldingCmds)
